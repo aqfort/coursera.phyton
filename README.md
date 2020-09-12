@@ -1,2 +1,1 @@
-# coursera.phyton
-Погружение в Python
+# Погружение в Python
