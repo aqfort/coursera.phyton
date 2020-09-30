@@ -2,12 +2,13 @@ class FileReader:
     """
     FileReader class
     """
+
     def __init__(self, file_path):
         self.file_path = file_path
 
     def __str__(self):
         return f"source: {self.file_path}"
-    
+
     def __repr__(self):
         return f"source: {self.file_path}"
 
