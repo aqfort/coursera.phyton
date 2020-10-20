@@ -75,7 +75,7 @@ class Client:
                 raise ClientError("Client: get (split)", identifier)
 
             for key in data:
-                (data[key]).sort(key = operator.itemgetter(0))
+                (data[key]).sort(key=operator.itemgetter(0))
 
             return data
         else:
@@ -96,8 +96,11 @@ if __name__ == "__main__":
 
     # print(my_list)
 
-    for item in my_dict:
-        print(my_dict[item])
+    # for item in my_dict:
+    #     print(my_dict[item])
+
+    for item in my_dict.items():
+        print(item)
 
 
 
